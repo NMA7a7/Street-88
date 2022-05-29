@@ -1,0 +1,87 @@
+@media(max-width:1150px) {
+    .header__poster-content {
+        justify-content: space-around;
+    }
+
+    .header__nav-content {
+        justify-content: space-around;
+    }
+
+    .header__nav-list, .header__poster-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 10px;
+    }
+
+    .header__nav-link {
+        font-size: 16px;
+    }
+
+    .header__nav-logo {
+        max-width: 130px;
+        width: 100%;
+    }
+
+    .header__content-title {
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .header__content-name {
+        font-size: 27px;
+        line-height: 13px;
+    }
+
+    .header__content-description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .header__content-price {
+        padding: 18px 20px;
+        font-size: 32px;
+        line-height: 20px;
+    }
+
+    .header__content-view {
+        padding: 12px 40px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .main__card-descr {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .main__branches-title {
+        padding: 10px 0;
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .footer__content-logo {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .footer {
+        height: 160px;
+    }
+
+    .footer__content {
+        padding-bottom: 20px;
+        padding-top: 25px;
+        justify-content: space-around;
+    }
+
+    .footer__content-tel {
+        line-height: 16px;
+        padding-top: 12px;
+    }
+
+    .footer__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
